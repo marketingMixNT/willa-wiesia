@@ -1,5 +1,6 @@
 <x-layouts.app title="" description="">
     
 
-    <p class="text-red-700"> dsadas</p>
+   @include('pages.home.partials.offer')
+   @include('pages.home.partials.offer-second')
 </x-layouts.app>
