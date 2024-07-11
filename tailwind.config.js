@@ -4,8 +4,23 @@ export default {
     "./resources/**/*.blade.php",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xs: '390px',
+        max: '1921px',
+      },
+    
+      colors: {
+        primary: '#fdf4db',
+        secondary: '#2b314f',
+        third: '#be9466',
+      },
+      animation: {
+        'spin-slow': 'spin 15s linear infinite',
+      },
+    },
   },
   plugins: [],
 }
+
 

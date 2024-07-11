@@ -1,3 +1,6 @@
+@use './global';
+@use './navbar.scss';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
