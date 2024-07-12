@@ -43,11 +43,11 @@
 
 <body class="overflow-x-hidden">
 
-<x-shared.header />
+<x-shared.header>{{$header}}</x-shared.header>
 
 <main>
 
-    {{ $slot }}
+    {{ $main }}
 </main>
 
 <x-shared.footer />

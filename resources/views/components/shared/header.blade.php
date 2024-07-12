@@ -32,10 +32,7 @@
 				<x-nav.navbar/>
 			</div>
 
-			<h1 class='text-5xl sm:text-6xl text-center font-normal text-white px-6 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-				Przytulne pokoje <br>
-				<span class='pt-12 font-extralight ml-3'>i niezapomniane widoki</span>
-			</h1>
+			{{$slot}}
 			<div class='mx-auto px-6 pb-16 absolute bottom-5 left-1/2  transform -translate-x-1/2 text-white'>
 				<a href='' class='link-btn'>
 					Zarezerwuj

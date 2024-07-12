@@ -17,10 +17,10 @@
 
 
     <div class='flex flex-col  text-center xl:text-left mx-auto gap-4 '>
-        <a href='' class="link-hover uppercase w-full lg:w-fit">
+        <a href='{{route('privacy-policy')}}' class="link-hover uppercase w-full lg:w-fit">
             Polityka Prywatności
         </a>
-        <a href='' class="link-hover  uppercase w-full lg:w-fit">
+        <a href='{{route('regulations')}}' class="link-hover  uppercase w-full lg:w-fit">
             Regulamin
         </a>
     </div>

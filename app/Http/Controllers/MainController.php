@@ -25,11 +25,15 @@ class MainController extends Controller
 
     public function index(){
 
-
         $images = $this->imageCollection('img-carousel');
 
-        
-
         return view("pages.home.index",compact("images"));
+    }
+
+    public function privacyPolicy(){
+        return view('pages.privacy-policy');
+    }
+    public function regulations(){
+        return view('pages.regulations');
     }
 }
