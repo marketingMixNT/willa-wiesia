@@ -34,7 +34,7 @@
 
 			{{$slot}}
 			<div class='mx-auto px-6 pb-16 absolute bottom-5 left-1/2  transform -translate-x-1/2 text-white'>
-				<a href='' class='link-btn'>
+				<a href='https://www.nocowanie.pl/rezerwuj/1504253-willa-wiesia-koscielisko/' class='link-btn'>
 					Zarezerwuj
 				</a>
 			</div>

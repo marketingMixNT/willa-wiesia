@@ -43,6 +43,8 @@
 
 <body class="overflow-x-hidden">
 
+    <x-preloader/>
+
 <x-shared.header>{{$header}}</x-shared.header>
 
 <main>

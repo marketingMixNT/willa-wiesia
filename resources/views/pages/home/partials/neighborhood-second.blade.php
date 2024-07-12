@@ -15,8 +15,6 @@
             <ul class="list-inside list-disc space-y-2 mt-4">
                 <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text"><span class='font-semibold'> Dolina Kościeliska</span> - uważana za najpiękniejszą dolinę Tatr
                     Zachodnich, ma długość 9 km i zajmuje 34 km kwadratowe powierzchni.</li>
-                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text"> <span class='font-semibold'> Dolina Kościeliska </span>- uważana za najpiękniejszą dolinę Tatr Zachodnich, ma długość 9 km i
-                    zajmuje 34 km kwadratowe powierzchni.</li>
                 <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text"> <span class='font-semibold'> Dolina Chochołowska </span> - najdłuższa, mierząca 10 km trasa, leży po lewej stronie trasy łączącej
                     Chochołów z Zakopanem.</li>
                 <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text"> <span class='font-semibold'> Dolina Małej Łąki </span> - najbardziej urocza w Tatrach, mierzy około 2,5 km długości.</li>
