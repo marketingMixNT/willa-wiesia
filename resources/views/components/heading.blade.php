@@ -1,0 +1,1 @@
+<h2 class='text-3xl md:text-4xl lg:text-3xl 2xl:text-4xl font-medium uppercase font-heading' style="line-height:1.2">{{$slot}}</h2>

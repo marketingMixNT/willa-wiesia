@@ -5,7 +5,7 @@
 
 
 
-<div id='menu' class='menu-close fixed inset-0 flex flex-col justify-between items-center py-8 px-4 bg-black z-50'>
+<div id='menu' class='menu-close fixed inset-0 flex flex-col justify-between items-center py-8 px-4 bg-third z-50'>
 
     <div class="flex justify-between w-full">
         
@@ -15,35 +15,39 @@
         
         <button type="button" class='self-end cursor-pointer' aria-label='zamknij menu' id="close">
        
-            <x-solar-close-circle-linear class="w-6 text-white" />
+            <x-solar-close-circle-linear class="w-10 text-white" />
 
 
         </button>
     </div>
 
-    <a href='{{route('home.index')}}'>
-        <img src="{{asset('logo--white.png')}}" alt="logo Willa na Wzgórzu w Zakopanym" width="160" height="111" class='w-40 md:w-64' />
-    </a>
+    <a href='{{ route('home.index') }}'
+    class='text-3xl font-light text-white mt-1 lg:mt-0 flex justify-center items-center gap-1 font-heading'>
+    {{-- <img src='{{asset('logo--navbar.png')}}' class='w-12 hidden sm:block ' width="48" height="36" /><span> --}}
+
+
+    Willa <span class=' font-light'></span>Wiesia </span>
+</a>
 
 
 
     <ul class='flex flex-col justify-center  w-full text-3xl font-extralight text-white  '>
-        <x-nav.nav-item-mobile href='/#pokoje'>
-            {{__('home.header.nav-item-one')}}
+        <x-nav.nav-item-mobile href='/#oferta'>
+        Oferta
         </x-nav.nav-item-mobile>
         <x-nav.nav-item-mobile href='/#okolica'>
-            {{__('home.header.nav-item-two')}}
+           Okolica
         </x-nav.nav-item-mobile>
 
         <x-nav.nav-item-mobile href='/#kontakt'>
-            {{__('home.header.nav-item-three')}}
+           Kontakt
         </x-nav.nav-item-mobile>
     </ul>
 
 
     <div class='mb-4 mx-auto px-6 '>
-        <a href='https://www.booking.com/hotel/pl/willa-pracus.pl.html' class='link-btn'>
-            {{__('home.header.nav-item-four')}}
+        <a href='https://www.nocowanie.pl/rezerwuj/1504253-willa-wiesia-koscielisko/' target="_blank" class='link-btn'>
+            Rezerwacja
         </a>
     </div>
 </div>

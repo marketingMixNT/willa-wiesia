@@ -1,31 +1,36 @@
-<section
-			id='pokoje'
-			class=' lg:h-[95vh]  max:h-[80vh] 2xl:mb-20 px-6 lg:px-16 max:px-12 pt-20 lg:pt-32 2xl:pb-10 md:py-10 2xl:py-20   '>
-		
-			<div class='flex flex-col lg:flex-row justify-between  h-full gap-8 md:gap-12 lg:gap-16 2xl:gap-32 max:gap-64'>
-				
 
-				<div class='flex flex-col justify-around gap-8 md:gap-16 lg:gap-12 w-full lg:w-[40%]'>
-					<div class='space-y-12'>
-						<h2 class='heading '>POKOJE GOŚCINNE NA WZGÓRZU</h2>
-						<p class='text'>
-							Nasze pokoje gościnne wyposażone są w łóżka małżeńskie lub dwa pojedyncze, telewizor z płaskim ekranem oraz zestaw do parzenia kawy i herbaty. W każdym wnętrzu znajduje się stolik z fotelami, idealny do relaksu po górskich wędrówkach. Prywatne łazienki z prysznicem zapewniają komfort i wygodę.
-						</p>
-					</div>
-					<p class='text--small'>
-                        Na parterze obiektu znajduje się ogólnodostępna, w pełni wyposażona kuchnia, gdzie można przygotować posiłki. Goście mogą również korzystać z salki z dużym telewizorem, idealnej do wspólnego spędzania czasu i relaksu.
-					</p>
-				</div>
-			
-				<div class=' w-full lg:w-[60%] py-6'>
-					<img
-						src='{{asset('assets/img/offer.jpg')}}'
-						alt=''
-						width='1280'
-						height='780'
-						loading='lazy'
-						class='w-full h-full object-cover '
-					/>
-				</div>
-			</div>
-		</section>
+
+<x-flex-section id="oferta">
+    {{-- TEXT --}}
+    <x-flex-text>
+
+        <x-heading>Twoje Idealne Miejsce na Wypoczynek w Kościelisku</x-heading>
+        <x-text>
+            Willa Wiesia to urokliwe miejsce położone <span class="font-semibold">w sercu Kościeliska</span>,
+            oferujące komfortowe noclegi w
+            pokojach 1, 2, 3 i 4 osobowych. Nasze 37 miejsc noclegowych zostało zaprojektowane z myślą o różnych
+            potrzebach Gości.
+        </x-text>
+        <x-text>
+            Z myślą o Państwa potrzebach, przygotowaliśmy pokoje w dwóch standardach: <span
+                class="font-semibold">wysoki</span>, który obejmuje nowoczesne łazienki w pokojach oraz telewizory,
+            oraz <span class="font-semibold">turystyczny</span>, z pokojami korzystającymi ze wspólnych łazienek.
+            Niezależnie od wyboru, każdy pokój wyposażony jest w telewizor i czajnik, a ciepła i zimna woda jest
+            dostępna przez całą dobę. Dodatkowo, Goście mają dostęp do w pełni wyposażonego aneksu kuchennego, co
+            zapewnia pełen komfort podczas pobytu.
+        </x-text>
+        <x-text>
+            Ceny kształtują się w zależności od standartu pokoi od <span class="font-semibold">40-60</span> zł od
+            osoby.
+        </x-text>
+
+    </x-flex-text>
+
+    {{-- IMG --}}
+    <x-flex-img>
+        <img src='{{ asset('assets/img/willa/willa-wiesia-16.webp') }}'
+            alt='widok z lotu ptaka na Willa Wiesia w Kościelisku' width='702' height='702' loading='lazy'
+            class='w-full  object-cover aspect-video lg:aspect-square max-h-[600px] ' />
+    </x-flex-img>
+
+</x-flex-section>

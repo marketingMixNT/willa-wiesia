@@ -1,21 +1,27 @@
-.heading {
-    @apply text-3xl md:text-4xl lg:text-3xl 2xl:text-5xl font-medium uppercase ;
+html{
+    scroll-behavior: smooth;
 }
 
-.text {
-    @apply text-base md:text-xl 2xl:text-2xl max:text-3xl font-light;
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Signika Negative", sans-serif;
+}
+p,a,li,span{
+    font-family: "Mukta", sans-serif;
 }
 
-.text--small {
-    @apply text-base md:text-lg lg:text-base 2xl:text-lg max:text-xl;
+.grecaptcha-badge { 
+    visibility: hidden !important;
 }
 
-.wrapper {
-    @apply px-6 sm:px-12 md:px-20 py-10  md:py-20;
-}
+
+// .wrapper {
+//     @apply px-6 sm:px-12 md:px-20 py-10  md:py-20;
+// }
 
 .link-btn {
-    @apply px-12 py-3 bg-transparent font-light xs:text-lg text-white uppercase  border border-dotted rounded-full hover:bg-third duration-500;
+    @apply px-12 py-3 bg-transparent font-light xs:text-lg text-white uppercase  border border-dotted rounded-full hover:bg-third duration-500 font-text;
 }
 .link-btn--dark {
     @apply px-12 py-3 bg-transparent font-light  text-secondary uppercase  border border-secondary border-dotted   rounded-full hover:bg-third hover:text-white duration-500;

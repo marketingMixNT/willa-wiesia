@@ -2,6 +2,7 @@ import './bootstrap';
 import './partials/marquee'
 import './partials/nav'
 import './partials/preloader'
+import './partials/glightbox'
 
 import Swiper from "swiper";
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
@@ -13,8 +14,11 @@ new Swiper(".hero-carousel", {
     grabCursor: true,
     slidesPerView: 1,
     breakpoints: {
-        1200: {
+        720: {
             slidesPerView: 2,
+        },
+        1200: {
+            slidesPerView: 3,
         },
     },
     spaceBetween: 30,
@@ -48,3 +52,9 @@ new Swiper(".outdoor-carousel", {
 
     modules: [Navigation, EffectFade],
 });
+
+const footerYear = document.querySelector('#footerYear')
+
+const currentYear = new Date().getFullYear()
+
+footerYear.innerHTML = currentYear

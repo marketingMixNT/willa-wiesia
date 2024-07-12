@@ -40,13 +40,17 @@
     @vite('resources/scss/app.scss')
 
 </head>
+
 <body class="overflow-x-hidden">
 
-    <x-shared.header/>
+<x-shared.header />
 
-    {{$slot}}
+<main>
 
+    {{ $slot }}
+</main>
 
+<x-shared.footer />
 @livewireScripts()
 @vite('resources/js/app.js')
 </body>
