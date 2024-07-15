@@ -4,24 +4,15 @@
     {{-- TEXT --}}
     <x-flex-text>
 
-        <x-heading>Twoje Idealne Miejsce na Wypoczynek w Kościelisku</x-heading>
+        <x-heading>{{__('home.offer.heading')}}</x-heading>
         <x-text>
-            Willa Wiesia to urokliwe miejsce położone <span class="font-semibold">w sercu Kościeliska</span>,
-            oferujące komfortowe noclegi w
-            pokojach 1, 2, 3 i 4 osobowych. Nasze 37 miejsc noclegowych zostało zaprojektowane z myślą o różnych
-            potrzebach Gości.
+            {{__('home.offer.text-one')}}
         </x-text>
         <x-text>
-            Z myślą o Państwa potrzebach, przygotowaliśmy pokoje w dwóch standardach: <span
-                class="font-semibold">wysoki</span>, który obejmuje nowoczesne łazienki w pokojach oraz telewizory,
-            oraz <span class="font-semibold">turystyczny</span>, z pokojami korzystającymi ze wspólnych łazienek.
-            Niezależnie od wyboru, każdy pokój wyposażony jest w telewizor i czajnik, a ciepła i zimna woda jest
-            dostępna przez całą dobę. Dodatkowo, Goście mają dostęp do w pełni wyposażonego aneksu kuchennego, co
-            zapewnia pełen komfort podczas pobytu.
+            {{__('home.offer.text-two')}}
         </x-text>
         <x-text>
-            Ceny kształtują się w zależności od standartu pokoi od <span class="font-semibold">40-60</span> zł od
-            osoby.
+            {{__('home.offer.text-three')}}
         </x-text>
 
     </x-flex-text>

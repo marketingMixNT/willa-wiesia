@@ -17,17 +17,16 @@
 
 
     <div class='flex flex-col  text-center xl:text-left mx-auto gap-4 '>
-        <a href='{{route('privacy-policy')}}' class="link-hover uppercase w-full lg:w-fit">
-            Polityka Prywatności
+        <a href='{{route('privacy-policy')}}' class="link-hover uppercase w-full lg:w-fit">{{__('home.footer.privacy-policy')}}
         </a>
         <a href='{{route('regulations')}}' class="link-hover  uppercase w-full lg:w-fit">
-            Regulamin
+            {{__('home.footer.regulations')}}
         </a>
     </div>
 
 
     <div class='flex flex-col  text-center xl:text-left mx-auto gap-4'>
-        <h2 class='uppercase text-xl'>Adres</h2>
+        <h2 class='uppercase text-xl'>{{__('home.footer.address')}}</h2>
         <a href='https://maps.app.goo.gl/gBSg6qJpSVmaXP9m8' class="link-hover">
 
             Karpielówka 121<br>
@@ -40,7 +39,7 @@
 
     <div class='flex flex-col items-end '>
         <div class='flex flex-col justify-center xl:justify-start items-center xl:items-start gap-4 '>
-            <h2 class='uppercase text-xl'>Kontakt</h2>
+            <h2 class='uppercase text-xl'>{{__('home.footer.contact')}}</h2>
             <a class='link-hover' href='mailto:kontakt@wwillawiesia.pl'>
                 kontakt@willawiesia.pl
             </a>

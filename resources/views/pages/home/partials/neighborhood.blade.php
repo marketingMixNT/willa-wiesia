@@ -3,18 +3,18 @@
     {{-- TEXT --}}
     <x-flex-text>
 
-        <x-heading>Odkryj Niezwykłe Szlaki Tatr z Willą Wiesia</x-heading>
+        <x-heading> {{__('home.neighborhood.heading')}}</x-heading>
         <x-text>
-            Choć niezaprzeczalnie piękne, szlaki turystyczne takie jak <span class="font-semibold"> Dolina Małej Łąki</span> czy <span class="font-semibold">Dolina Chochołowska</span>, choć popularne, nie są jedynymi miejscami wartymi odwiedzenia. Zachęcamy do odkrywania mniej uczęszczanych tras, które na pewno dostarczą wielu niezapomnianych wrażeń. 
+            {{__('home.neighborhood.text-one')}}
         </x-text>
         <div>
-            <span class="text-base lg:text-lg 2xl:text-xl  font-text font-semibold "> Polecamy:</span>   
+            <span class="text-base lg:text-lg 2xl:text-xl  font-text font-semibold ">    {{__('home.neighborhood.list-heading')}}</span>   
             <ul class="list-inside list-disc space-y-2 mt-4">
-                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text">Dolina Pięciu Stawów Polskich</li>
-                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text">Ornak</li>
-                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text">Siklawa (Wielka Siklawa) - najpiękniejszy wodospad w Tatrach</li>
-                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text">Jaskinia Raptawicka w Dolinie Kościeliskiej</li>
-                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text">Najłatwiejszy Szlak na Rusinową Polanę z Wierchu Poroniec</li>
+                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text">   {{__('home.neighborhood.list-item-one')}}</li>
+                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text"> {{__('home.neighborhood.list-item-two')}}</li>
+                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text"> {{__('home.neighborhood.list-item-three')}}</li>
+                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text"> {{__('home.neighborhood.list-item-four')}}</li>
+                <li class="text-base md:text-lg lg:text-base 2xl:text-lg  font-extralight font-text"> {{__('home.neighborhood.list-item-five')}}</li>
             </ul>
         </div>
       

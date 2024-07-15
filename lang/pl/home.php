@@ -1,5 +1,8 @@
 <?php return [
 
+    'meta_title'=>'Willa Wiesia - Komfortowe Noclegi w Kościelisku z Widokiem na Tatry',
+    'meta_desc'=>'Oferujemy przytulne pokoje w Kościelisku, idealne dla turystów ceniących tradycję i spokój. Bliskość szlaków turystycznych i piękne widoki gwarantowane.',
+
     'nav' => [
         'offer' => 'Oferta',
         'neighborhood' => 'Okolica',
@@ -9,7 +12,13 @@
 
     'header' => [
         'heading-one' => 'Przytulne pokoje',
-        'heading-two' => 'i niezapomniane widoki'
+        'heading-two' => 'i niezapomniane widoki',
+        'marquee-one'=>'Relaks',
+        'marquee-two'=>'Wypoczynek',
+        'marquee-three'=>'Góry',
+        'marquee-four'=>'Natura',
+        'marquee-five'=>'Tradycja',
+        'marquee-six'=>'Tatry',
     ],
 
     'offer' => [
@@ -58,7 +67,7 @@
     ],
 
     'cta' => [
-        'title' => 'ZAREZERWUJ TWÓJ WYPOCZYNEK W WILLI WIESIA',
+        'title' => 'ZAREZERWUJ TWÓJ WYPOCZYNEK W ',
         'text' => 'Odkryj niezapomniane piękno Tatr z komfortem i spokojem Willi Wiesia. Zapewniamy przytulne pokoje z widokiem na Giewont oraz łatwy dostęp do najpiękniejszych szlaków turystycznych.
 Rezerwuj już dziś i zaplanuj swoje wymarzone wakacje w sercu Kościeliska!',
     ],
@@ -74,7 +83,7 @@ Rezerwuj już dziś i zaplanuj swoje wymarzone wakacje w sercu Kościeliska!',
 
     'footer'=>[
         'privacy-policy'=> 'Polityka Prywatności',
-        'regulations'=> 'Regulations',
+        'regulations'=> 'Regulamin',
         'address'=> 'Adres',
         'contact'=> 'Kontakt',
     ]

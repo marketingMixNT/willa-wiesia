@@ -1,15 +1,24 @@
 <?php return [
 
+'meta_title'=>'Willa Wiesia - Comfortable accommodation in Kościelisko with a view of the Tatra Mountains',
+'meta_desc'=>'We offer cozy rooms in Kościelisko, ideal for tourists who value tradition and peace. Proximity to hiking trails and beautiful views guaranteed.',
+
 'nav' => [
     'offer' => 'Offer',
     'neighborhood' => 'Neighborhood',
     'contact' => 'Contact',
-    'book' => 'Book Now',
+    'book' => 'Book',
 ],
 
 'header' => [
     'heading-one' => 'Cozy Rooms',
-    'heading-two' => 'and Unforgettable Views'
+    'heading-two' => 'and Unforgettable Views',
+    'marquee-one' => 'Relax',
+    'marquee-two' => 'Rest',
+    'marquee-three' => 'Mountains',
+    'marquee-four' => 'Nature',
+    'marquee-five' => 'Tradition',
+    'marquee-six' => 'Tatras',
 ],
 
 'offer' => [

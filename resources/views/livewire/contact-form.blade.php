@@ -7,7 +7,7 @@
 
     <div class="flex flex-col gap-3">
 
-        <input wire:model.live.lazy='name' type='text' name='name' id='name' placeholder='Imię i nazwisko'
+        <input wire:model.live.lazy='name' type='text' name='name' id='name' placeholder="{{__('home.contact.name')}}"
             class='w-full border-secondary border rounded-full border-dashed  px-4 py-3 outline-none focus:border-solid' />
         @error('name')
             <p class="text-red-600 text-xs ml-5">{{ $message }}</p>
@@ -17,7 +17,7 @@
     <div class="flex flex-col gap-3">
 
         <input wire:model.live.lazy='email' type='email' id='email' name='email' name='Adres Email'
-            placeholder='Adres email'
+            placeholder="{{__('home.contact.email')}}"
             class='w-full border-secondary border rounded-full border-dashed px-4 py-3 outline-none focus:border-solid' />
         @error('email')
             <p class="text-red-600 text-xs ml-5">{{ $message }}</p>
@@ -27,7 +27,7 @@
     <div class="flex flex-col gap-3">
     <textarea wire:model.live.lazy='content' name='content' id='content' cols='30' rows='6'
         class='w-full border-secondary border rounded-3xl border-dashed px-4 py-4 outline-none focus:border-solid'
-        placeholder='Wiadomość'></textarea>
+        placeholder="{{__('home.contact.message')}}"></textarea>
     @error('content')
     <p class="text-red-600 text-xs ml-5">{{$message}}</p>
     @enderror
@@ -42,7 +42,7 @@
             <path class="opacity-75" fill="#fff"
                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
             </path>
-        </svg>Wyślij
+        </svg>{{__('home.contact.submit')}}
     </button>
 </form>
 

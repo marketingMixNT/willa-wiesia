@@ -16,7 +16,7 @@ Polityka <br>
     <x-slot:main >
 
         <article class="max-w-screen-xl mx-4 sm:mx-12 lg:mx-6 xl:mx-auto space-y-12 py-20 prose">
-            <h2 style="text-align:center">Polityka Prywatności</h2>
+            <h2 style="text-align:center">{{__('privacy-policy.title')}}</h2>
             <p>Poniższa Polityka Prywatności określa <strong>zasady zapisywania i uzyskiwania dostępu do danych na
                     Urządzeniach Użytkowników</strong> korzystających z Serwisu do celów świadczenia usług drogą
                 elektroniczną przez Administratora oraz <strong>zasady gromadzenia i przetwarzania danych osobowych

@@ -14,7 +14,7 @@
     {{-- TEXT --}}
     <x-flex-text>
 
-        <x-heading>Kontakt</x-heading>
+        <x-heading>{{__('home.contact.heading')}}</x-heading>
         <livewire:contact-form />
 
     </x-flex-text>

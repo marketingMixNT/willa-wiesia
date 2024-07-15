@@ -28,7 +28,7 @@ public function updatedCaptcha($token)
     if (!$this->captcha > .3) {
         $this->store();
     } else {
-        return session()->flash('success', 'Dziękujemy za wiadomość!');
+        return session()->flash('success',  __('home.contact.success-message'));
     }
  
 }
@@ -61,7 +61,7 @@ public function updatedCaptcha($token)
                 ->subject('Nowa wiadomość ze strony willawiesia.pl');
         });
 
-        $this->successMessage = 'Dziękujemy za wiadomość ';
+        $this->successMessage =  __('home.contact.success-message');
 
         $this->resetForm();
 
