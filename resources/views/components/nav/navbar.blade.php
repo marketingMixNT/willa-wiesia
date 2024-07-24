@@ -10,7 +10,7 @@
 
 
 
-    <x-nav.Mobile />
+    <x-nav.mobile />
 
 
     <ul class='hidden lg:flex justify-center items-center gap-12 xl:gap-12 text-white text-lg'>

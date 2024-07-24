@@ -1,7 +1,7 @@
 <?php return [
 
-    'meta_title'=>'Willa Wiesia - Komfortowe Noclegi w Kościelisku z Widokiem na Tatry',
-    'meta_desc'=>'Oferujemy przytulne pokoje w Kościelisku, idealne dla turystów ceniących tradycję i spokój. Bliskość szlaków turystycznych i piękne widoki gwarantowane.',
+    'meta_title' => 'Willa Wiesia - Komfortowe Noclegi w Kościelisku z Widokiem na Tatry',
+    'meta_desc' => 'Oferujemy przytulne pokoje w Kościelisku, idealne dla turystów ceniących tradycję i spokój. Bliskość szlaków turystycznych i piękne widoki gwarantowane.',
 
     'nav' => [
         'offer' => 'Oferta',
@@ -13,12 +13,12 @@
     'header' => [
         'heading-one' => 'Przytulne pokoje',
         'heading-two' => 'i niezapomniane widoki',
-        'marquee-one'=>'Relaks',
-        'marquee-two'=>'Wypoczynek',
-        'marquee-three'=>'Góry',
-        'marquee-four'=>'Natura',
-        'marquee-five'=>'Tradycja',
-        'marquee-six'=>'Tatry',
+        'marquee-one' => 'Relaks',
+        'marquee-two' => 'Wypoczynek',
+        'marquee-three' => 'Góry',
+        'marquee-four' => 'Natura',
+        'marquee-five' => 'Tradycja',
+        'marquee-six' => 'Tatry',
     ],
 
     'offer' => [
@@ -72,19 +72,20 @@
 Rezerwuj już dziś i zaplanuj swoje wymarzone wakacje w sercu Kościeliska!',
     ],
 
-    'contact'=>[
-        'heading'=>'Kontakt',
-        'name'=>'Imię i nazwisko',
-        'email'=>'Email',
-        'message'=>'Wiadomość',
-        'submit'=>'Wyślij',
-        'success-message'=>'Dziękujemy za wiadomość',
+    'contact' => [
+        'heading' => 'Kontakt',
+        'name' => 'Imię i nazwisko',
+        'email' => 'Email',
+        'message' => 'Wiadomość',
+        'submit' => 'Wyślij',
+        'success-message' => 'Dziękujemy za wiadomość',
     ],
 
-    'footer'=>[
-        'privacy-policy'=> 'Polityka Prywatności',
-        'regulations'=> 'Regulamin',
-        'address'=> 'Adres',
-        'contact'=> 'Kontakt',
+    'footer' => [
+        'privacy-policy' => 'Polityka Prywatności',
+        'seo' => ' Hotel | Pensjonat | Pokoje | Agroturystyka Zakopane',
+        'regulations' => 'Regulamin',
+        'address' => 'Adres',
+        'contact' => 'Kontakt',
     ]
 ];

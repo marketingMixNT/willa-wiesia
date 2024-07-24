@@ -3,7 +3,7 @@
 
 
     <div class='col-span-1'>
-        <div class='relative flex items-center justify-center max:pl-12'>
+        <div class='relative flex flex-col items-center justify-center gap-2 text-center max:pl-12'>
 
             <a href='{{ route('home.index') }}'
                 class='text-3xl font-light text-white mt-1 lg:mt-0 flex justify-center items-center gap-1 font-heading'>
@@ -12,6 +12,7 @@
 
                 Willa <span class=' font-light'></span>Wiesia </span>
             </a>
+            <span>  {{__('home.footer.seo')}}</span>
         </div>
     </div>
 
@@ -27,7 +28,7 @@
 
     <div class='flex flex-col  text-center xl:text-left mx-auto gap-4'>
         <h2 class='uppercase text-xl'>{{__('home.footer.address')}}</h2>
-        <a href='https://maps.app.goo.gl/gBSg6qJpSVmaXP9m8' class="link-hover">
+        <a href='https://maps.app.goo.gl/YKsAFyzvQatukwAMA' class="link-hover">
 
             Karpielówka 121<br>
 
@@ -40,15 +41,13 @@
     <div class='flex flex-col items-end '>
         <div class='flex flex-col justify-center xl:justify-start items-center xl:items-start gap-4 '>
             <h2 class='uppercase text-xl'>{{__('home.footer.contact')}}</h2>
-            <a class='link-hover' href='mailto:kontakt@wwillawiesia.pl'>
-                kontakt@willawiesia.pl
-            </a>
-            <a class='link-hover' href='tel:+48182070656'>
-                +48 18 20 70 656
+            <a class='link-hover' href='mailto:staszel@staszel.pl'>
+                staszel@staszel.pl
             </a>
             <a class='link-hover' href='tel:+48664360200'>
-                +48 664 360 200
+                +48  664 360 200
             </a>
+            
         </div>
     </div>
 
